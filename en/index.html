@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pura: On-Device Ad Blocker &amp; Privacy for iPhone</title>
+<meta name="description" content="Pura blocks ads and trackers right on your iPhone, using rules you control. No accounts, no analytics, nothing uploaded. Import rule lists, add domains, check what was blocked.">
+<link rel="canonical" href="https://xineshen.github.io/pura/en/">
+<link rel="alternate" hreflang="zh-Hans" href="https://xineshen.github.io/pura/">
+<link rel="alternate" hreflang="en" href="https://xineshen.github.io/pura/en/">
+<link rel="alternate" hreflang="x-default" href="https://xineshen.github.io/pura/en/">
+<meta name="theme-color" content="#F3F6F0">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pura">
+<meta property="og:title" content="Pura: On-Device Ad Blocker &amp; Privacy for iPhone">
+<meta property="og:description" content="Pura blocks ads and trackers right on your iPhone, using rules you control. No accounts, no analytics, nothing uploaded. Import rule lists, add domains, check what was blocked.">
+<meta property="og:url" content="https://xineshen.github.io/pura/en/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://xineshen.github.io/pura/assets/og-en.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="../assets/hero-art.jpg">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Pura", "operatingSystem": "iOS", "applicationCategory": "UtilitiesApplication", "description": "Pura blocks ads and trackers right on your iPhone, using rules you control. No accounts, no analytics, nothing uploaded. Import rule lists, add domains, check what was blocked.", "url": "https://xineshen.github.io/pura/en/", "inLanguage": "en", "image": "https://xineshen.github.io/pura/assets/og-en.jpg", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "name": "Shen Xin'e"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Why do I still see ads?", "acceptedAnswer": {"@type": "Answer", "text": "Pura only blocks domains that match rules you turn on. Ads served from the same domain as content, apps with their own resolvers, or domains your rules miss can’t be separated by DNS. Use Checkup to see real requests, then adjust your rules."}}, {"@type": "Question", "name": "Is Pura a VPN?", "acceptedAnswer": {"@type": "Answer", "text": "Pura uses iOS’s local network extension to handle DNS on your iPhone. It doesn’t route traffic to any server or provide proxy or remote network access."}}, {"@type": "Question", "name": "Why can’t I turn it on without rules?", "acceptedAnswer": {"@type": "Answer", "text": "Pura only takes over your network when it has blocking rules. Import a rule pack or add domains on the Rules tab first."}}, {"@type": "Question", "name": "Is Deep mode safe?", "acceptedAnswer": {"@type": "Answer", "text": "Deep mode is off by default. The certificate is generated on your iPhone and its private key never leaves it. Only domains you confirm one by one are processed, and you can turn it off and remove the certificate anytime."}}, {"@type": "Question", "name": "How do I restore a purchase or get a refund?", "acceptedAnswer": {"@type": "Answer", "text": "Restore purchases in Settings → Pura Pro. Refunds are handled by Apple, from the app or your Apple purchase history."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap top">
+  <a class="brand" href="../"><img src="../assets/icon-80.png" width="40" height="40" alt="">Pura</a>
+  <nav aria-label="Main">
+    <a href="#features">Features</a><a href="#privacy">Privacy</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+    <a class="lang" href="../" hreflang="zh-Hans" lang="zh-Hans">中文</a>
+  </nav>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1><span class="line">Fewer ads,</span><span class="line">more calm</span></h1>
+      <p class="lede">Pura blocks ad and tracker domains on your iPhone using the rules you turn on. Everything happens on your device — no accounts, no data collection.</p>
+      <div class="cta"><span class="store" role="link" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg><span><small>Coming soon</small><b>App Store</b></span></span><small>Free to download. Pro is a one-time purchase, no subscription.</small></div>
+    </div>
+    <div class="hero-art">
+      <img class="art" src="../assets/hero-art.jpg" width="1536" height="1024" alt="Purr, Pura’s cream-white cat mascot, deflecting incoming ad fragments with a green shield" fetchpriority="high">
+    </div>
+  </div>
+</section>
+<section class="wrap steps" aria-labelledby="steps-title">
+  <h2 class="section-title" id="steps-title">Get started in three steps</h2>
+  <p class="section-lede">Pura ships with no rules. What gets blocked and what gets through is up to you.</p>
+  <ol><li><h3>Import or add rules</h3><p>Paste text, pick a file or enter a link to import a rule pack, or add domains to block yourself.</p></li><li><h3>Turn on blocking</h3><p>Allow the local network configuration, and Pura handles DNS on your iPhone for every app.</p></li><li><h3>Fix it when something breaks</h3><p>An app won’t load? See what was blocked in the last two minutes and allow what you need.</p></li></ol>
+</section>
+<div class="wrap" id="features"><section class="feature" aria-labelledby="f-rules"><div class="copy"><h2 id="f-rules">Your rules, your way</h2><p>Preview every rule pack before importing: what it blocks, what it allows, and which lines it skips.</p><ul><li>Domain lists, hosts files and other common formats</li><li>Allow rules and a built-in protected list come first, so system and payment services keep working</li><li>Turn each rule pack on or off, and browse every rule</li></ul></div><img class="phone shot" src="../assets/rules-en.jpg" width="640" height="1391" alt="Pura Rules: list of rule packs" loading="lazy" decoding="async"></section><section class="feature flip" aria-labelledby="f-checkup"><div class="copy"><h2 id="f-checkup">Something broke? Fix it fast</h2><p>Blocking can catch the wrong thing. Checkup puts recent blocks and the request log in front of you, so you can decide what to allow.</p><ul><li>See domains blocked in the last 2 minutes</li><li>The request log shows how each request was handled</li><li>DNS request recording helps you find domains worth a rule</li></ul></div><img class="phone shot" src="../assets/checkup-en.jpg" width="640" height="1391" alt="Pura Checkup: troubleshoot apps and view the request log" loading="lazy" decoding="async"></section><section class="feature" aria-labelledby="f-pause"><div class="copy"><h2 id="f-pause">Pause anytime, resume on its own</h2><p>Need a break? Turn the dial to choose how long, and blocking resumes by itself. Your Lock Screen and Dynamic Island show the status.</p><ul><li>From 15 minutes to hours, in 5-minute steps</li><li>With no blocking rules on, Pura doesn’t take over your network</li><li>Step-by-step help to stop shake-to-open ads in iOS Settings</li></ul></div><img class="phone shot" src="../assets/pause-en.jpg" width="640" height="1391" alt="Pura pause sheet: turn the dial to choose how long" loading="lazy" decoding="async"></section></div>
+<section class="privacy" id="privacy" aria-labelledby="privacy-title">
+  <div class="wrap">
+    <div>
+      <h2 id="privacy-title">Your data stays on your iPhone</h2>
+      <p>Pura has no servers, so there’s nowhere for your data to go. Rules, logs and settings stay on your device.</p>
+      <dl><div><dt>No accounts</dt><dd>Open it and go. Nothing to sign up for.</dd></div><div><dt>No analytics or ad SDKs</dt><dd>No analytics, advertising or crash-reporting services, and no tracking across apps.</dd></div><div><dt>DNS goes to the resolver you choose</dt><dd>Lookups that aren’t blocked go to the public DNS service you pick, encrypted when possible.</dd></div></dl>
+      <p><a href="https://xineshen.github.io/pura-legal/en/privacy.html">Read the privacy policy</a></p>
+    </div>
+    <img class="cat" src="../assets/cat.jpg" width="1200" height="800" alt="Purr curled up asleep" loading="lazy" decoding="async">
+  </div>
+</section>
+<section class="wrap pricing" id="pricing" aria-labelledby="pricing-title">
+  <h2 class="section-title" id="pricing-title">Free to use, upgrade if you need more</h2>
+  <div class="plans"><div class="plan"><h3>Free</h3><p class="price">Free forever</p><ul><li>DNS filtering and manual rules</li><li>Rule pack import</li><li>Checkup and request log</li><li>Pause and shake-to-open guide</li></ul></div><div class="plan pro"><h3>Pura Pro</h3><p class="price">One-time purchase, priced on the App Store</p><ul><li>Deep mode: rewrite or reject APIs on domains you confirm, on your device</li><li>Local backup &amp; restore</li><li>All future tool features</li></ul></div></div>
+  <p class="note">Pro unlocks tool features only and includes no rules. Results depend on your rules, your network and how each app behaves; not every ad can be removed.</p>
+</section>
+<section class="wrap faq" id="faq" aria-labelledby="faq-title">
+  <h2 class="section-title" id="faq-title">FAQ</h2>
+  <details><summary>Why do I still see ads?</summary><p>Pura only blocks domains that match rules you turn on. Ads served from the same domain as content, apps with their own resolvers, or domains your rules miss can’t be separated by DNS. Use Checkup to see real requests, then adjust your rules.</p></details><details><summary>Is Pura a VPN?</summary><p>Pura uses iOS’s local network extension to handle DNS on your iPhone. It doesn’t route traffic to any server or provide proxy or remote network access.</p></details><details><summary>Why can’t I turn it on without rules?</summary><p>Pura only takes over your network when it has blocking rules. Import a rule pack or add domains on the Rules tab first.</p></details><details><summary>Is Deep mode safe?</summary><p>Deep mode is off by default. The certificate is generated on your iPhone and its private key never leaves it. Only domains you confirm one by one are processed, and you can turn it off and remove the certificate anytime.</p></details><details><summary>How do I restore a purchase or get a refund?</summary><p>Restore purchases in Settings → Pura Pro. Refunds are handled by Apple, from the app or your Apple purchase history.</p></details>
+</section>
+<section class="wrap closing" aria-labelledby="closing-title">
+  <img src="../assets/cat-round.jpg" width="360" height="360" alt="" loading="lazy">
+  <h2 id="closing-title">Let Purr keep the noise out</h2>
+  <div class="cta"><span class="store" role="link" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg><span><small>Coming soon</small><b>App Store</b></span></span></div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Shen Xin’e</span>
+    <nav aria-label="Footer">
+      <a href="https://xineshen.github.io/pura-legal/en/support.html">Support</a><a href="https://xineshen.github.io/pura-legal/en/privacy.html">Privacy Policy</a><a href="https://xineshen.github.io/pura-legal/en/terms.html">Terms of Use</a>
+      <a href="mailto:brycen_tang_lucky@163.com">brycen_tang_lucky@163.com</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
