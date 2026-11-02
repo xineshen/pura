@@ -137,3 +137,8 @@ footer a { color: var(--muted); }
   .plans { grid-template-columns: 1fr; }
   .top nav a:not(.lang) { display: none; }
 }
+
+/* Pricing and FAQ read as one centred column on wide screens. */
+.wrap.pricing, .wrap.faq { width: min(900px, 100% - 32px); }
+.plans { max-width: none; }
+.faq details { max-width: none; }
